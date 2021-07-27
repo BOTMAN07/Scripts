@@ -1,13 +1,12 @@
 bl_info = {
-    "name" : "Eevee Rig Addon",
-    "author" : "Aftermath#1810",
-    "version" : (1, 0),
-    "blender" : (2, 92, 0),
-    "location" : "View3d > Tool",
-    "warning" : "",
-    "wiki_url" : "",
-    "category" : "3D View",
-    
+    "name": "Eevee's Rig Addon",
+    "author": "Aftermath#1810",
+    "version": (1, 0),
+    "blender": (2, 80, 0),
+    "location": "View3D",
+    "description": "Addon for Eevee's krunker rig",
+    "warning": "",
+    "category": "Object",
 }
 
 import bpy
