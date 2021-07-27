@@ -89,16 +89,11 @@ class Vantablack(bpy.types.Operator):
         custom_group = skin_material.node_tree.nodes.get("Group")
             
         custom_group.location = (-400, 200)
-        custom_group.inputs[1].default_value = (0.000910581, 0.000910581, 0.000910581, 1
-)
-        custom_group.inputs[2].default_value = (0.000910581, 0.000910581, 0.000910581, 1
-)
-        custom_group.inputs[4].default_value = (0.000910581, 0.000910581, 0.000910581, 1
-)
-        custom_group.inputs[5].default_value = (0.000910581, 0.000910581, 0.000910581, 1
-)
-        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1
-)
+        custom_group.inputs[1].default_value = (0.000910581, 0.000910581, 0.000910581, 1)
+        custom_group.inputs[2].default_value = (0.000910581, 0.000910581, 0.000910581, 1)
+        custom_group.inputs[4].default_value = (0.000910581, 0.000910581, 0.000910581, 1)
+        custom_group.inputs[5].default_value = (0.000910581, 0.000910581, 0.000910581, 1)
+        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1)
         return{'FINISHED'}
         
 class Spectralon(bpy.types.Operator):
@@ -116,16 +111,11 @@ class Spectralon(bpy.types.Operator):
         custom_group = skin_material.node_tree.nodes.get("Group")
             
         custom_group.location = (-400, 200)
-        custom_group.inputs[1].default_value = (1, 1, 1, 1
-)
-        custom_group.inputs[2].default_value = (1, 1, 1, 1
-)
-        custom_group.inputs[4].default_value = (1, 1, 1, 1
-)
-        custom_group.inputs[5].default_value = (1, 1, 1, 1
-)
-        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1
-)
+        custom_group.inputs[1].default_value = (1, 1, 1, 1)
+        custom_group.inputs[2].default_value = (1, 1, 1, 1)
+        custom_group.inputs[4].default_value = (1, 1, 1, 1)
+        custom_group.inputs[5].default_value = (1, 1, 1, 1)
+        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1)
         return{'FINISHED'}
  
     
@@ -144,20 +134,11 @@ class Crimson(bpy.types.Operator):
         custom_group = skin_material.node_tree.nodes.get("Group")
             
         custom_group.location = (-400, 200)
-        custom_group.inputs[1].default_value = (1, 0.0561284, 0.0595113, 1
-
-)
-        custom_group.inputs[2].default_value = (0.00242822, 0.00242822, 0.00242822, 1
-
-)
-        custom_group.inputs[4].default_value = (0.00242822, 0.00242822, 0.00242822, 1
-
-)
-        custom_group.inputs[5].default_value = (1, 0.0561284, 0.0595113, 1
-
-)
-        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1
-)
+        custom_group.inputs[1].default_value = (1, 0.0561284, 0.0595113, 1)
+        custom_group.inputs[2].default_value = (0.00242822, 0.00242822, 0.00242822, 1)
+        custom_group.inputs[4].default_value = (0.00242822, 0.00242822, 0.00242822, 1)
+        custom_group.inputs[5].default_value = (1, 0.0561284, 0.0595113, 1)
+        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1)
         return{'FINISHED'}
         
 class Amberite(bpy.types.Operator):
@@ -175,22 +156,11 @@ class Amberite(bpy.types.Operator):
         custom_group = skin_material.node_tree.nodes.get("Group")
             
         custom_group.location = (-400, 200)
-        custom_group.inputs[1].default_value = (1, 1, 0.0331048, 1
-
-)
-        custom_group.inputs[2].default_value = (0.0116123, 0.0116122, 0.0116122, 1
-
-
-)
-        custom_group.inputs[4].default_value = (0.0116123, 0.0116122, 0.0116122, 1
-
-
-)
-        custom_group.inputs[5].default_value = (1, 1, 0.0331048, 1
-
-)
-        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1
-)
+        custom_group.inputs[1].default_value = (1, 1, 0.0331048, 1)
+        custom_group.inputs[2].default_value = (0.0116123, 0.0116122, 0.0116122, 1)
+        custom_group.inputs[4].default_value = (0.0116123, 0.0116122, 0.0116122, 1)
+        custom_group.inputs[5].default_value = (1, 1, 0.0331048, 1)
+        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1)
         return{'FINISHED'}
     
 class Coldsnap(bpy.types.Operator):
@@ -208,23 +178,11 @@ class Coldsnap(bpy.types.Operator):
         custom_group = skin_material.node_tree.nodes.get("Group")
             
         custom_group.location = (-400, 200)
-        custom_group.inputs[1].default_value = (0.0368893, 0.775823, 1, 1
-
-
-)
-        custom_group.inputs[2].default_value = (1,1,1,1
-
-)
-        custom_group.inputs[4].default_value = (1,1,1,1
-
-
-)
-        custom_group.inputs[5].default_value = (0.0368893, 0.775823, 1, 1
-
-
-)
-        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1
-)
+        custom_group.inputs[1].default_value = (0.0368893, 0.775823, 1, 1)
+        custom_group.inputs[2].default_value = (1,1,1,1)
+        custom_group.inputs[4].default_value = (1,1,1,1)
+        custom_group.inputs[5].default_value = (0.0368893, 0.775823, 1, 1)
+        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1)
         return{'FINISHED'}
     
 class Sugarbear(bpy.types.Operator):
@@ -242,27 +200,11 @@ class Sugarbear(bpy.types.Operator):
         custom_group = skin_material.node_tree.nodes.get("Group")
             
         custom_group.location = (-400, 200)
-        custom_group.inputs[1].default_value = (1, 0.3564, 0.730461, 1
-
-
-
-)
-        custom_group.inputs[2].default_value = (1, 0.3564, 0.730461, 1
-
-
-)
-        custom_group.inputs[4].default_value = (1, 0.3564, 0.730461, 1
-
-
-
-)
-        custom_group.inputs[5].default_value = (1, 0.3564, 0.730461, 1
-
-
-
-)
-        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1
-)
+        custom_group.inputs[1].default_value = (1, 0.3564, 0.730461, 1)
+        custom_group.inputs[2].default_value = (1, 0.3564, 0.730461, 1)
+        custom_group.inputs[4].default_value = (1, 0.3564, 0.730461, 1)
+        custom_group.inputs[5].default_value = (1, 0.3564, 0.730461, 1)
+        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1)
         return{'FINISHED'}
     
 
@@ -282,29 +224,11 @@ class StreamSuit(bpy.types.Operator):
         custom_group = skin_material.node_tree.nodes.get("Group")
             
         custom_group.location = (-400, 200)
-        custom_group.inputs[1].default_value = (0.122139, 0.0561285, 0.434154, 1
-
-
-
-
-)
-        custom_group.inputs[2].default_value = (1,1, 1, 1
-
-
-)
-        custom_group.inputs[4].default_value = (1, 1, 1, 1
-
-
-
-)
-        custom_group.inputs[5].default_value = (0.122139, 0.0561285, 0.434154, 1
-
-
-
-
-)
-        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1
-)
+        custom_group.inputs[1].default_value = (0.122139, 0.0561285, 0.434154, 1)
+        custom_group.inputs[2].default_value = (1,1, 1, 1)
+        custom_group.inputs[4].default_value = (1, 1, 1, 1)
+        custom_group.inputs[5].default_value = (0.122139, 0.0561285, 0.434154, 1)
+        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1)
         return{'FINISHED'}
     
 class Terra(bpy.types.Operator):
@@ -322,33 +246,11 @@ class Terra(bpy.types.Operator):
         custom_group = skin_material.node_tree.nodes.get("Group")
             
         custom_group.location = (-400, 200)
-        custom_group.inputs[1].default_value = (0.0116121, 0.791298, 0.0802199, 1
-
-
-
-
-
-)
-        custom_group.inputs[2].default_value = (0.0168074, 0.0185002, 0.0193824, 1
-
-
-
-)
-        custom_group.inputs[4].default_value = (0.0168074, 0.0185002, 0.0193824, 1
-
-
-
-
-)
-        custom_group.inputs[5].default_value = (0.0116121, 0.791298, 0.0802199, 1
-
-
-
-
-
-)
-        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1
-)
+        custom_group.inputs[1].default_value = (0.0116121, 0.791298, 0.0802199, 1)
+        custom_group.inputs[2].default_value = (0.0168074, 0.0185002, 0.0193824, 1)
+        custom_group.inputs[4].default_value = (0.0168074, 0.0185002, 0.0193824, 1)
+        custom_group.inputs[5].default_value = (0.0116121, 0.791298, 0.0802199, 1)
+        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1)
         return{'FINISHED'}
     
 class Lavender(bpy.types.Operator):
@@ -366,22 +268,11 @@ class Lavender(bpy.types.Operator):
         custom_group = skin_material.node_tree.nodes.get("Group")
             
         custom_group.location = (-400, 200)
-        custom_group.inputs[1].default_value = (0.768152, 0.0561284, 1, 1
-
-)
-        custom_group.inputs[2].default_value = (0.205079, 0.0561285, 1, 1
-
-
-)
-        custom_group.inputs[4].default_value = (0.205079, 0.0561285, 1, 1
-
-
-)
-        custom_group.inputs[5].default_value = (0.768152, 0.0561284, 1, 1
-
-)
-        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1
-)
+        custom_group.inputs[1].default_value = (0.768152, 0.0561284, 1, 1)
+        custom_group.inputs[2].default_value = (0.205079, 0.0561285, 1, 1)
+        custom_group.inputs[4].default_value = (0.205079, 0.0561285, 1, 1)
+        custom_group.inputs[5].default_value = (0.768152, 0.0561284, 1, 1)
+        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1)
         return{'FINISHED'}
     
 class Carotine(bpy.types.Operator):
@@ -399,26 +290,11 @@ class Carotine(bpy.types.Operator):
         custom_group = skin_material.node_tree.nodes.get("Group")
             
         custom_group.location = (-400, 200)
-        custom_group.inputs[1].default_value = (0.991102, 0.341914, 0.0595113, 1
-
-
-)
-        custom_group.inputs[2].default_value = (0.068478, 0.799103, 0.144129, 1
-
-
-
-)
-        custom_group.inputs[4].default_value = (0.068478, 0.799103, 0.144129, 1
-
-
-
-)
-        custom_group.inputs[5].default_value = (0.991102, 0.341914, 0.0595113, 1
-
-
-)
-        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1
-)
+        custom_group.inputs[1].default_value = (0.991102, 0.341914, 0.0595113, 1)
+        custom_group.inputs[2].default_value = (0.068478, 0.799103, 0.144129, 1)
+        custom_group.inputs[4].default_value = (0.068478, 0.799103, 0.144129, 1)
+        custom_group.inputs[5].default_value = (0.991102, 0.341914, 0.0595113, 1)
+        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1)
         return{'FINISHED'}
     
 class Cocoa(bpy.types.Operator):
@@ -436,31 +312,11 @@ class Cocoa(bpy.types.Operator):
         custom_group = skin_material.node_tree.nodes.get("Group")
             
         custom_group.location = (-400, 200)
-        custom_group.inputs[1].default_value = (0.127438, 0.0382044, 0.0144438, 1
-
-
-
-)
-        custom_group.inputs[2].default_value = (0.0159963, 0.00699541, 0.00367651, 1
-
-
-
-
-)
-        custom_group.inputs[4].default_value = (0.0159963, 0.00699541, 0.00367651, 1
-
-
-
-
-)
-        custom_group.inputs[5].default_value = (0.127438, 0.0382044, 0.0144438, 1
-
-
-
-)
-        custom_group.inputs[6].default_value = (0.205079, 0.109462, 0.0578054, 1
-
-)
+        custom_group.inputs[1].default_value = (0.127438, 0.0382044, 0.0144438, 1)
+        custom_group.inputs[2].default_value = (0.0159963, 0.00699541, 0.00367651, 1)
+        custom_group.inputs[4].default_value = (0.0159963, 0.00699541, 0.00367651, 1)
+        custom_group.inputs[5].default_value = (0.127438, 0.0382044, 0.0144438, 1)
+        custom_group.inputs[6].default_value = (0.205079, 0.109462, 0.0578054, 1)
         return{'FINISHED'}
 
 class KPD_Uniform(bpy.types.Operator):
@@ -478,35 +334,11 @@ class KPD_Uniform(bpy.types.Operator):
         custom_group = skin_material.node_tree.nodes.get("Group")
             
         custom_group.location = (-400, 200)
-        custom_group.inputs[1].default_value = (0.0202886, 0.0307135, 0.0865005, 1
-
-
-
-
-)
-        custom_group.inputs[2].default_value = (0.0466651, 0.0512695, 0.0528607, 1
-
-
-
-
-
-)
-        custom_group.inputs[4].default_value = (0.0466651, 0.0512695, 0.0528607, 1
-
-
-
-
-
-)
-        custom_group.inputs[5].default_value = (0.0202886, 0.0307135, 0.0865005, 1
-
-
-
-
-)
-        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1
-
-)
+        custom_group.inputs[1].default_value = (0.0202886, 0.0307135, 0.0865005, 1)
+        custom_group.inputs[2].default_value = (0.0466651, 0.0512695, 0.0528607, 1)
+        custom_group.inputs[4].default_value = (0.0466651, 0.0512695, 0.0528607, 1)
+        custom_group.inputs[5].default_value = (0.0202886, 0.0307135, 0.0865005, 1)
+        custom_group.inputs[6].default_value = (0.031896, 0.0343398, 0.0368895, 1)
         return{'FINISHED'}
     
 class Dusty(bpy.types.Operator):
@@ -524,37 +356,11 @@ class Dusty(bpy.types.Operator):
         custom_group = skin_material.node_tree.nodes.get("Group")
             
         custom_group.location = (-400, 200)
-        custom_group.inputs[1].default_value = (0.219526, 0.238398, 0.254152, 1
-
-
-
-
-
-)
-        custom_group.inputs[2].default_value = (0, 0, 0, 1
-
-
-
-
-
-)
-        custom_group.inputs[4].default_value = (0, 0, 0, 1
-
-
-
-
-
-)
-        custom_group.inputs[5].default_value = (0.219526, 0.238398, 0.254152, 1
-
-
-
-
-
-)
-        custom_group.inputs[6].default_value = (0.205079, 0.109462, 0.0578054, 1
-
-)
+        custom_group.inputs[1].default_value = (0.219526, 0.238398, 0.254152, 1)
+        custom_group.inputs[2].default_value = (0, 0, 0, 1)
+        custom_group.inputs[4].default_value = (0, 0, 0, 1)
+        custom_group.inputs[5].default_value = (0.219526, 0.238398, 0.254152, 1)
+        custom_group.inputs[6].default_value = (0.205079, 0.109462, 0.0578054, 1)
         return{'FINISHED'}
     
 class Exotic(bpy.types.Operator):
