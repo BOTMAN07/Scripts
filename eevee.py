@@ -1,16 +1,16 @@
-# bl_info = {
-#     "name" : "Eevee Rig Addon",
-#     "author" : "Aftermath#1810",
-#     "version" : (1, 0),
-#     "blender" : (2, 92, 0),
-#     "location" : "View3d > Tool",
-#     "warning" : "",
-#     "wiki_url" : "",
-#     "category" : "3D View",
+bl_info = {
+    "name" : "Eevee Rig Addon",
+    "author" : "Aftermath#1810",
+    "version" : (1, 0),
+    "blender" : (2, 92, 0),
+    "location" : "View3d > Tool",
+    "warning" : "",
+    "wiki_url" : "",
+    "category" : "3D View",
     
-# }
+}
 
-# import bpy
+import bpy
 
 class MainPanel(bpy.types.Panel):
     bl_label = "Eevee rig script"
